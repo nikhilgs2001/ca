@@ -1,0 +1,256 @@
+<html>
+<head>
+<style>
+	body{
+		background-color: #5F9EA0;
+	}
+	.h1{
+		font-size: 45px;
+		text-align: center;
+	}
+	.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+ padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+background-color: transparent;
+ 
+}
+</style>
+
+
+</head>
+<body>
+<div class="h1">
+<p style="color:red;">IT 5<sup>th</sup> Sem Materials</p>
+</div>
+<button class="accordion" style="color:#2F4F4F;background-color: transparent;font-size: 40px;">.NET</button>
+
+<div class="panel">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 1" onclick="open1()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 2" onclick="open2()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 3" onclick="open3()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 4" onclick="open4()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 5" onclick="open5()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+</div>
+
+<button class="accordion" style="color:#2F4F4F;background-color: transparent;font-size: 40px;">Compiler Engineering</button>
+
+
+<div class="panel">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 1" onclick="open11()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 2" onclick="open12()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 3" onclick="open13()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 4" onclick="open14()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 5" onclick="open15()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+</div>
+
+<button class="accordion" style="color:#2F4F4F;background-color: transparent;font-size: 40px;">ICT</button>
+
+
+<div class="panel">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 1" onclick="open21()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 2" onclick="open22()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 3" onclick="open23()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 4" onclick="open24()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 5" onclick="open25()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+</div>
+
+
+<button class="accordion" style="color:#2F4F4F;background-color: transparent;font-size: 40px;">ComputerNetwork</button>
+
+
+<div class="panel">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 1" onclick="open31()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 2" onclick="open32()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 3" onclick="open33()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 4" onclick="open34()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 5" onclick="open35()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+</div>
+
+
+<button class="accordion" style="color:#2F4F4F;background-color: transparent;font-size: 40px;">APSC</button>
+
+
+<div class="panel">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 1" onclick="open41()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 2" onclick="open42()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 3" onclick="open43()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 4" onclick="open44()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 5" onclick="open45()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+</div>
+
+
+<button class="accordion" style="color:#2F4F4F;background-color: transparent;font-size: 40px;">Web Technology</button>
+
+
+<div class="panel">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 1" onclick="open51()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 2" onclick="open52()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 3" onclick="open53()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 4" onclick="open54()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 5" onclick="open55()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+</div>
+
+
+
+<button class="accordion" style="color:#2F4F4F;background-color: transparent;font-size: 40px;">Python Programming</button>
+<div class="panel">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 1" onclick="open61()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 2" onclick="open62()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 3" onclick="open63()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 4" onclick="open64()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="UNIT 5" onclick="open65()" style="color:white;background-color: transparent;font-size: 30px;border-color: transparent;">
+</div>
+<br>
+
+<p style="color:red;font-size: 25px;text-align: center;">
+You will receive Updates daily... Thank You!..
+</p>
+<br>
+<br>
+<br>
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+<script>
+	function open1(){
+		window.open("net.html");
+	}
+	function open2(){
+		window.open("net2.html");
+	}
+	function open3(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open4(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open5(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open11(){
+		window.open("ce1.html");
+	}
+	function open12(){
+		window.open("ce2.html");
+	}
+	function open13(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open14(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open15(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open21(){
+		window.open("ict.html");
+	}
+	function open22(){
+		window.open("ict2.html");
+	}
+	function open23(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open24(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open25(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open31(){
+		window.open("index.html");
+	}
+	function open32(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open33(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open34(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open35(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open41(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open42(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open43(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open44(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open45(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open51(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open52(){
+		window.open("index.html");
+	}
+	function open53(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open54(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open55(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open61(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open62(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open63(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open64(){
+		window.alert("Still Not Yet Updated");
+	}
+	function open65(){
+		window.alert("Still Not Yet Updated");
+	}
+</script>
+</body>
+</html>
